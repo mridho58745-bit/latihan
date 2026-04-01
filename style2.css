@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: "Georgia", "Times New Roman", serif;
+    background-image: url(pokemon.jfif);
+    background-size: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: yellow;
+}

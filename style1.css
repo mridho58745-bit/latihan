@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', serif;
+    background-image: url(spongebob2.jpeg);
+    background-size: 1365px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login {
+    padding: 2rem;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgb(255, 255, 255);
+    width: 320px;
+    text-align: center;
+    animation: fadeIn 1s ease;
+}
+
+.login h2{
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+.input {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.input input{
+     width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input input:focus {
+    border-color: #ffffff;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.952);
+}
+
+.input label{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    color: #ada8a8;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+
+.input input:focus + label,
+.input input:valid + label {
+    top: -8px;
+    left: 8px;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background: transparent;
+    padding: 0 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #3427ec, #c740e2);
+    border: none;
+    color: #1b1a1a;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
